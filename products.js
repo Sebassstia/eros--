@@ -5,41 +5,41 @@
 const products = [
   {
     id: 1,
-    name: "Classic Black",
+    name: "Gorra Urban Highly Favored Edition",
     price: 39.99,
-    image: "https://images.pexels.com/photos/844867/pexels-photo-844867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "1.png",
     badge: ""
   },
   {
     id: 2,
-    name: "Urban Street",
+    name: "Gorra Chill Gris Casual ",
     price: 44.99,
-    image: "https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "2.png"
   },
   {
     id: 3,
-    name: "Vintage Gold",
+    name: "Gorra Retro New York 92’s ",
     price: 49.99,
-    image: "https://images.pexels.com/photos/1078821/pexels-photo-1078821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "3.png",
     badge: ""
   },
   {
     id: 4,
-    name: "Sport Edition",
+    name: "Gorra New York 88’s Vintage",
     price: 37.99,
-    image: "https://images.pexels.com/photos/1070058/pexels-photo-1070058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "4.png"
   },
   {
     id: 5,
-    name: "Minimalist White",
+    name: "Gorra Athlehs Urban",
     price: 42.99,
-    image: "https://images.pexels.com/photos/1018911/pexels-photo-1018911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "5.png"
   },
   {
     id: 6,
-    name: "Denim Blue",
+    name: "Gorra The North Face",
     price: 45.99,
-    image: "https://images.pexels.com/photos/2955375/pexels-photo-2955375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "6.png",
     badge: ""
   }
 ];
@@ -100,7 +100,7 @@ function renderProducts() {
       if (product) {
         // This function is defined in cart.js
         addToCart(product);
-        showNotification('Item added to cart!');
+        showNotification('¡Artículo añadido al carrito!');
       }
     });
   });

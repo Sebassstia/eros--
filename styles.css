@@ -115,7 +115,7 @@ img {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://media.revistagq.com/photos/62c2dd5c6479fa73c1ca229b/1:1/w_1440,h_1440,c_limit/gorras%20new%20era%20precio%20historia.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../imj/logo.png');
   background-size: cover;
   background-position: center;
   color: var(--color-white);
@@ -248,4 +248,42 @@ footer {
   .section-title {
     font-size: 2rem;
   }
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.social-links a {
+  color: #fff;
+  background-color: #333;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 24px;
+}
+
+.social-links a:hover {
+  transform: scale(1.1);
+}
+
+.social-links a:nth-child(1):hover {
+  background-color: #e1306c; /* Instagram */
+}
+
+.social-links a:nth-child(2):hover {
+  background-color: #1877f2; /* Facebook */
+}
+
+.social-links a:nth-child(3):hover {
+  background-color: #25d366; /* WhatsApp */
 }

@@ -108,8 +108,8 @@ function renderCartItems() {
     cartItemsContainer.innerHTML = `
       <div class="empty-cart">
         <i class="fas fa-shopping-cart"></i>
-        <p>Your cart is empty</p>
-        <a href="#catalog" class="btn-primary" id="empty-cart-shop">Shop Now</a>
+        <p>Tu carrito está vacío</p>
+        <a href="#catalog" class="btn-primary" id="empty-cart-shop">Comprar ahora</a>
       </div>
     `;
     

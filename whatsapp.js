@@ -4,7 +4,7 @@
  */
 
 // WhatsApp number for sending orders (replace with your actual number)
-const WHATSAPP_NUMBER = '+54 02645104092'; // Replace with your WhatsApp number
+const WHATSAPP_NUMBER = '+54 9 2645 89-5763'; // Replace with your WhatsApp number
 
 /**
  * Prepares the WhatsApp message for checkout
@@ -29,7 +29,7 @@ function prepareWhatsAppMessage() {
   message += `\n*Total: ${formatPrice(total)}*\n\n`;
   
   // Add note
-  message += 'Por favor, confirme su pedido. ¡Gracias!';
+  message += 'Por favor, confirme mi pedido. ¡Gracias!';
   
   return encodeURIComponent(message);
 }
